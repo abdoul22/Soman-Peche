@@ -35,7 +35,7 @@ class ProductController extends Controller
             'description' => 'required',
             'poids' => 'required',
             'taille' => 'required',
-            'stock-quantity' => 'required'
+            'stockQuantity' => 'required'
         ]);
         $product = $request->all();
         if($image = $request->file('image')){
@@ -62,7 +62,7 @@ class ProductController extends Controller
      */
     public function edit(Product $product)
     {
-        //
+        return view('products.edit',compact('product') );
     }
 
     /**
@@ -70,7 +70,28 @@ class ProductController extends Controller
      */
     public function update(Request $request, Product $product)
     {
-        //
+        $request->validate([
+            'name' => 'required',
+            'description' => 'required',
+            'poids' => 'required',
+            'taille' => 'required',
+            'stockQuantity' => 'required'
+        ]);
+
+        $productInput = $request->all();
+
+        if ($request->hasFile('image')) {
+            $image_path = 'images';
+            $image_extnsion = date('YmdHis') . '.' . $request->file('image')->getClientOriginalExtension();
+            $request->file('image')->move($image_path, $image_extnsion);
+            $productInput['image'] =  $image_extnsion;
+        } elseif (!isset($productInput['image'])) {
+            $productInput['image'] = null;
+        }
+
+        $product->update($productInput);
+
+        return redirect()->route('products.index')->with('success', 'Product Updated Successfully');
     }
 
     /**
@@ -78,6 +99,7 @@ class ProductController extends Controller
      */
     public function destroy(Product $product)
     {
-        //
+        $product->delete();
+        return redirect()->route('products.index')->with('success', 'Product Deleted Successfully');
     }
 }

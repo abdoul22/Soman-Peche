@@ -18,7 +18,7 @@ return new class extends Migration
             $table->text('description');
             $table->string('poids');
             $table->string('taille');
-            $table->string('stock-quantity');
+            $table->string('stockQuantity');
             $table->timestamps();
         });
     }

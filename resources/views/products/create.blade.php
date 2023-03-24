@@ -37,7 +37,7 @@
         </div>
         <div class="mb-3">
             <label for="stock-quantity" class="form-label">Quantity in Stock</label>
-            <input type="text" class="form-control" name="stock-quantity" id="stock-quantity" placeholder="Enter the Quantity in stock">
+            <input type="text" class="form-control" name="stockQuantity" id="stock-quantity" placeholder="Enter the Quantity in stock">
         </div>
         <button type="submit" class="btn btn-success">Submit</button>
     </form>
@@ -57,6 +57,6 @@
             content.
         </p>
     </div>
-   
+
 </div>
 @endsection
