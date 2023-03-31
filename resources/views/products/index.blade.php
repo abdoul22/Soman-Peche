@@ -3,7 +3,7 @@
 @section('content')
 @include('layouts.header')
 <div class="">
-<h1>hello world</h1>
+<br>
     @if ($message = Session::get('success'))
     <br>
     <br>

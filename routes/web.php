@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\abouttController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +21,8 @@ Route::resource('/products', ProductController::class);
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/contact', [ContactController::class, 'index'])->name("contact");
+
+Route::get('/about', [abouttController::class, 'index'])->name("about");
+
