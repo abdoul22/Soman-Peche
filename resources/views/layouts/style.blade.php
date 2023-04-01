@@ -9,7 +9,7 @@
     @vite('resources/css/app.css')
 </head>
 
-<body class="antialiased bg-gray-200 font-sans">
+<body class="antialiased bg-gray-200 text-gray-600 font-sans">
    @yield('content')
 @include('layouts.footer')
 </body>

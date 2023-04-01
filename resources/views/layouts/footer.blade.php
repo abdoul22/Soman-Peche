@@ -95,16 +95,15 @@
 
         <div class="mb-6">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                distinctio earum repellat quaerat voluptatibus placeat nam,
-                commodi optio pariatur est quia magnam eum harum corrupti dicta,
-                aliquam sequi voluptate quas.
+         Thank you for choosing Soman Pêche as your trusted source for high-quality, sustainable fish. We're passionate about providing
+        our customers with the freshest catch and the best possible service, and we appreciate your business. If you have any
+        questions or feedback, please don't hesitate to contact us. We're always here to help.
             </p>
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-4">
             <div class="mb-6">
-                <h5 class="mb-2.5 font-bold uppercase">Links</h5>
+                <h5 class="mb-2.5 font-bold uppercase">Our Community</h5>
 
                 <ul class="mb-0 list-none">
                     <li>
@@ -123,45 +122,7 @@
             </div>
 
             <div class="mb-6">
-                <h5 class="mb-2.5 font-bold uppercase">Links</h5>
-
-                <ul class="mb-0 list-none">
-                    <li>
-                        <a href="#!" class="text-white">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 4</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="mb-6">
-                <h5 class="mb-2.5 font-bold uppercase">Links</h5>
-
-                <ul class="mb-0 list-none">
-                    <li>
-                        <a href="#!" class="text-white">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 4</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="mb-6">
-                <h5 class="mb-2.5 font-bold uppercase">Links</h5>
+                <h5 class="mb-2.5 font-bold uppercase">Our Parteners</h5>
 
                 <ul class="mb-0 list-none">
                     <li>
@@ -182,7 +143,7 @@
     </div>
 
     <div class="p-4 text-center" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2023 Copyright:
-        <a class="text-white" href="https://tailwind-elements.com/">Tailwind Elements</a>
+        © 2023 All Copyright: reserved
+        <a class="text-white" href="https://somanpeche.com/">Soman Pêche</a>
     </div>
 </footer>
