@@ -10,7 +10,7 @@
         data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">More Info..</a>
 </div>
 <section class="p-8">
-    <h1 class="font-black text-2xl mb-8 text-indigo-700 ">Welcome to Soman Pêche</h1>
+    <h1 class="font-black text-2xl mb-8 uppercase ">Welcome to Soman Pêche</h1>
     <h4 class="leading-8 font-semibold">Your destination for fresh and flavorful fish. We are a company specialized in
         the sale of
         high-quality fish from different regions of the world to offer our customers a unique and varied culinary
