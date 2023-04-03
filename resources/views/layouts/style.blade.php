@@ -13,5 +13,6 @@
 <body class="antialiased font-body bg-gray-200 text-gray-600 ">
    @yield('content')
 @include('layouts.footer')
+<script src="{{ asset("js/script.js") }}" ></script>
 </body>
 </html>
