@@ -2,15 +2,16 @@
 
 @include('layouts.header')
 @section('content')
-<div style="background-image: url('{{ asset('images/bannier/requin.jpg') }}');"
+
+<div style="background-image: url('{{ asset('images/bannier/poulpe.jpeg') }}');"
     class="bg-cover bg-center h-96 bg-neutral-50 py-20 px-6 text-center text-neutral-800 dark:bg-neutral-700 dark:text-neutral-200">
-    <h1 class="mb-6 text-5xl font-bold text-indigo-100">Soman Pêche</h1>
+    <h1 class="mb-6 text-5xl font-bold text-indigo-100 ">Soman Pêche</h1>
     <h3 class="mb-8 text-3xl font-bold">the ocean at your fingertips</h3>
     <a class="inline-block rounded bg-primary border-solid border-2 border-sky-500 px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)]"
-        data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">More Info..</a>
+        data-te-ripple-init data-te-ripple-color="light" href="{{ route('products.index') }}" role="button">Our Products</a>
 </div>
 <section class="p-8">
-    <h1 class="font-black text-2xl mb-8 uppercase ">Welcome to Soman Pêche</h1>
+    <h1 class="font-black text-2xl mb-8 uppercase bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 ">Welcome to Soman Pêche</h1>
     <h4 class="leading-8 font-semibold">Your destination for fresh and flavorful fish. We are a company specialized in
         the sale of
         high-quality fish from different regions of the world to offer our customers a unique and varied culinary
@@ -66,4 +67,15 @@
         everything you need to create delicious, sustainable meals that you can feel good about.</h4>
     <br>
 </section>
+<section class="my-12  flex justify-center">
+    <video width="640" height="360" controls>
+        <source src="{{ url('videos/soman-video.mp4') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+<div class="flex justify-center">
+    <div class="transition ease-out duration-500 transform hover:scale-125 btn bg-indigo-900 hover:shadow-inner hover:bg-indigo-700 text-gray-200">
+        Load More</div>
+</div>
+@include('layouts.footer')
 @endsection

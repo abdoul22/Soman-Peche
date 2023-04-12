@@ -1,9 +1,12 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AlbumController;
 use App\Http\Controllers\abouttController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\galleryController;
 use App\Http\Controllers\ProductController;
-use Illuminate\Support\Facades\Route;
+use GuzzleHttp\Promise\Create;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +20,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::resource('/products', ProductController::class);
+
+Route::resource('/gallery', galleryController::class);
+Route::resource('/albums', AlbumController::class);
+// Route::get('/albums', [AlbumController::class,"index"])->name("albums.index");
+// Route::get('/albums/create', [AlbumController::class, 'create'])->name("albums.create");
+// Route::post('/albums', [AlbumController::class, 'store'])->name("albums.store");
 
 Route::get('/', function () {
     return view('welcome');

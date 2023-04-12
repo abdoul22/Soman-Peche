@@ -1,6 +1,6 @@
-<footer class="bg-neutral-900 text-center text-white">
+<footer class="mt-5 bg-neutral-900 text-center text-white">
     <div class="container px-6 pt-6">
-        <div class="mb-6 flex justify-center">
+        <div class="ml-48 text-center mb-6 flex justify-center">
             <a href="#!" type="button"
                 class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
                 data-te-ripple-init data-te-ripple-color="light">
@@ -104,25 +104,6 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-4">
             <div class="mb-6">
                 <h5 class="mb-2.5 font-bold uppercase">Our Community</h5>
-
-                <ul class="mb-0 list-none">
-                    <li>
-                        <a href="#!" class="text-white">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="text-white">Link 4</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="mb-6">
-                <h5 class="mb-2.5 font-bold uppercase">Our Parteners</h5>
 
                 <ul class="mb-0 list-none">
                     <li>
