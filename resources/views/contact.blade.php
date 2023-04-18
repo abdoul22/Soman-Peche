@@ -34,7 +34,7 @@
                                 <circle cx="7.04807" cy="6.97256" r="2.5" id="svg_3"></circle>
                             </g>
                         </svg>
-                        <h1 class="inline text-2xl font-semibold leading-none">Receiver</h1>
+                        <h1 class="inline text-2xl font-semibold leading-none">Your informations</h1>
                     </div>
                     <div class="flex-none pt-2.5 pr-2.5 pl-1"></div>
                 </div>

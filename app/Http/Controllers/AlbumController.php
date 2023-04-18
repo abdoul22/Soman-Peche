@@ -13,7 +13,7 @@ class AlbumController extends Controller
     public function index()
     {
 
-        $albums = Album::all();
+        $albums = Album::latest()->get();
         return view('albums.index', compact('albums'));
 
     }
